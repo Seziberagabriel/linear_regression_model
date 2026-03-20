@@ -11,9 +11,19 @@ Using historical undernourishment data across 208 countries (2000–2024), this 
 a regression model to predict undernourishment prevalence — helping identify and prioritize
 communities where food insecurity is rising or persistent.
 
-## Dataset
-**Source:** Our World in Data – Prevalence of Undernourishment
-**Link:** https://ourworldindata.org/hunger-and-undernourishment
-4,804 records across 208 countries (2000–2024), tracking the percentage of the population
-experiencing undernourishment, used to train and evaluate Linear Regression, Decision Tree,
-and Random Forest models.
+
+## Dataset Description
+- **Source:** Our World in Data / Food and Agriculture Organization (FAO) of the United Nations
+  → https://ourworldindata.org/hunger-and-undernourishment
+- **File:** `prevalence-of-undernourishment.csv`
+- **Rows:** ~5,000+ country-year observations
+- **Columns:**
+  - `Entity` — Country or region name
+  - `Code` — ISO country code
+  - `Year` — Observation year (2000–2024)
+  - `undernourishment` — % of population that is undernourished (target variable)
+
+## Why This Dataset?
+Undernourishment is a critical global health indicator tracked by the UN.
+This dataset spans 20+ years across 180+ countries, making it rich in both
+volume and geographic variety — ideal for regression analysis.
