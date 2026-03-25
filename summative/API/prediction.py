@@ -27,7 +27,7 @@ app.add_middleware(
         "http://localhost",
         "http://localhost:3000",
         "http://localhost:8080",
-        "https://YOUR-APP-NAME.onrender.com",  # ← update after deploying
+        "https://undernourishment-api.onrender.com", 
     ],
     allow_credentials=True,
     allow_methods=["GET", "POST"],
