@@ -27,6 +27,8 @@ app.add_middleware(
         "http://localhost",
         "http://localhost:3000",
         "http://localhost:8080",
+        "http://127.0.0.1",
+        "http://10.0.2.2",
         "https://undernourishment-api.onrender.com", 
     ],
     allow_credentials=True,
