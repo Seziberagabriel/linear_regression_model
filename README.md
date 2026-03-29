@@ -3,6 +3,9 @@
 ## Link to my Demo Video
 https://youtu.be/EjQKPyYUVeM?si=yljMrOerkCdrtAlQ
 
+## Live API — Swagger UI
+**https://undernourishment-api.onrender.com/docs**
+
 ## Mission
 To combat malnutrition and undernutrition, I advocate for equitable access to nutritious food
 and promote sustainable solutions in my home community. Through education, innovation, and
